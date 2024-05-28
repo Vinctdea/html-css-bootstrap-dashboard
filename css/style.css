@@ -5,3 +5,14 @@
 main{
     margin-top: 56px;
 }
+
+
+nav img {
+    max-width: 40px;
+    max-height:40px;
+    margin: 0;
+    }
+
+    .fa-bell{
+        color:orange ;
+    }
