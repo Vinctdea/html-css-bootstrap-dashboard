@@ -52,14 +52,14 @@ nav img {
     
 }
 
-#none div{
+.none div{
     margin: 20px 15px 0 15px;
 }
 
 /****** media query display none  768px********/
 @media screen and ( max-width: 768px){
     
-    #none{
+    .none{
         display: none;
         margin: 20px 15px 0 15px;
     }
