@@ -4,9 +4,9 @@ body{
 }
 
 [class*="col-"]{
-    /* background-color: red; */
-    /* border: 1px solid black; */
-    height: 300px; */   
+    /* background-color: red;
+    border: 1px solid black; */
+    height: 300px;   
 }
 
 /************regole main*********/
@@ -56,7 +56,7 @@ nav img {
     margin: 20px 15px 0 15px;
 }
 
-/* media query display none  768px*/
+/****** media query display none  768px********/
 @media screen and ( max-width: 768px){
     
     #none{
