@@ -1,18 +1,32 @@
 /* regole generali */
-
+[class*="col-"]{
+    background-color: red;
+    border: 1px solid black;
+    height: 300px;
+    
+}
 
 /* regole main */
 main{
     margin-top: 56px;
+    
 }
 
 
 nav img {
     max-width: 40px;
     max-height:40px;
-    margin: 0;
+   
     }
 
     .fa-bell{
         color:orange ;
+        font-size: 20px;
+        padding: 1%;
+    }
+
+    .ms_contmain{
+        height: calc(100vh - 56px);
+        background-color: rgb(72, 152, 26);
+        width: 100%;
     }
