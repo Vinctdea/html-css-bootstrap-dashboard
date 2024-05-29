@@ -1,32 +1,66 @@
-/* regole generali */
+/*************regole generali **********/
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 [class*="col-"]{
-    background-color: red;
-    border: 1px solid black;
-    height: 300px;
-    
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    height: 300px; */   
 }
 
-/* regole main */
+/************regole main*********/
+main .row >*{
+    padding-right: 0;
+    padding-left: 0;
+}
+
 main{
-    margin-top: 56px;
+    margin-top: 68px;
+    color: white;
+    font-size: 20px;
     
 }
-
 
 nav img {
     max-width: 40px;
     max-height:40px;
-   
-    }
+}
 
-    .fa-bell{
-        color:orange ;
-        font-size: 20px;
-        padding: 1%;
-    }
+.fa-bell{
+    color:orange ;
+    font-size: 20px;
+    cursor: pointer;
+}
 
-    .ms_contmain{
-        height: calc(100vh - 56px);
-        background-color: rgb(72, 152, 26);
-        width: 100%;
+.ms_contmain{
+    height: calc(100vh - 68px);
+    background-color: rgb(72, 152, 26);
+    width: 100%;
+    overflow-y: auto;
+}    
+
+#ms_bgimage i{
+    display: block;
+    margin: 20px 15px 0 15px;
+
+}
+
+#ms_bgimage{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: rgb(18, 18, 54);
+    
+}
+
+#none div{
+    margin: 20px 15px 0 15px;
+}
+
+/* media query display none  768px*/
+@media screen and ( max-width: 768px){
+    
+    #none{
+        display: none;
+        margin: 20px 15px 0 15px;
     }
+}
