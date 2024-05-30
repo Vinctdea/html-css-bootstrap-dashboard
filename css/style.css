@@ -59,6 +59,15 @@ nav img {
 
 /********* REGOLE BLOCCHI CENTRALI*********** */
 
+.ms_bg_sez_bol{
+    background-color: rgb(77, 36, 255);
+    width: 100%;
+    padding: 2%;
+    /* debug */
+    height: 100%;
+    
+}
+
 .ms_border_block {
     border: 1px solid gray;
 }
@@ -67,6 +76,12 @@ nav img {
     border-bottom: 1px solid gray;
     background-color: rgb(179, 172, 172);
     color: black;
+}
+
+.ms_border_block img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
 
 /****** media query display none  768px********/
