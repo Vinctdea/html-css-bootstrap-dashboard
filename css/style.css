@@ -6,13 +6,14 @@ body{
 [class*="col-"]{
     /* background-color: red;
     border: 1px solid black; */
-    height: 300px;   
+    /* height: 300px;    */
 }
 
 /************regole main*********/
 main .row >*{
     padding-right: 0;
     padding-left: 0;
+    
 }
 
 main{
@@ -60,16 +61,17 @@ nav img {
 /********* REGOLE BLOCCHI CENTRALI*********** */
 
 .ms_bg_sez_bol{
-    background-color: rgb(77, 36, 255);
+    background-color: rgb(53, 53, 239);
     width: 100%;
     padding: 2%;
     /* debug */
-    height: 100%;
+    /* height: 100%; */
     
 }
 
 .ms_border_block {
     border: 1px solid gray;
+    
 }
 
 .ms_border_block h2{
@@ -79,6 +81,7 @@ nav img {
 }
 
 .ms_border_block img{
+    display: block;
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
