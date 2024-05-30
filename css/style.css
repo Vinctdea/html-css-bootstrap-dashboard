@@ -35,7 +35,7 @@ nav img {
 
 .ms_contmain{
     height: calc(100vh - 68px);
-    background-color: rgb(72, 152, 26);
+    /* background-color: rgb(72, 152, 26); */
     width: 100%;
     overflow-y: auto;
 }    
@@ -54,6 +54,19 @@ nav img {
 
 .none div{
     margin: 20px 15px 0 15px;
+}
+
+
+/********* REGOLE BLOCCHI CENTRALI*********** */
+
+.ms_border_block {
+    border: 1px solid gray;
+}
+
+.ms_border_block h2{
+    border-bottom: 1px solid gray;
+    background-color: rgb(179, 172, 172);
+    color: black;
 }
 
 /****** media query display none  768px********/
